@@ -1,5 +1,5 @@
 import random
-words=list(map(str,input().split()))
+words=['paradise','obsession','spiderman','hulk','ragnorok']
 word=random.choice(words)
 guess_letters=[]
 wrong_guess=0
